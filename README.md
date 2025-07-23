@@ -32,6 +32,7 @@ CSS
 
 Folder Structure
 
+```bash
 Stunning-Fashion-Store/
 ├── public/
 ├── src/
@@ -46,6 +47,7 @@ Stunning-Fashion-Store/
 ├── .gitignore
 ├── package.json
 ├── README.md
+```
 
 How to Run the Project
 
