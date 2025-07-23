@@ -1,0 +1,98 @@
+body{
+    background-color:rgba(250, 240, 230, 0.797);
+}
+
+.signUp-container{
+    margin: 150px auto;
+    position: relative;
+    max-width: 430px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 20px;
+    overflow: hidden;
+    background-color: #fff;
+}
+.signUp-form h2{
+    text-align: center;
+    
+}
+
+.signUp-form p{
+    text-align: center;
+    padding-top: 10px;
+}
+.signUp-form{
+    width: 100%;
+    padding: 30px;
+}
+
+.signUp-form .title{
+    font-size: 27px;
+    font-weight: 600;
+}
+.signUp-form .input-field1{
+    position:relative;
+    height: 50px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.input-field1 input{
+    width: 100%;
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    border-bottom: 2px solid #ccc;
+    border-top: 2px solid transparent;
+    transition: all 0.2s ease;
+}
+
+.input-field1 input:focus{
+    border-bottom-color: #c1035c;
+}
+
+.input-field1 i{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #999;
+    font-size: 23px;
+    transition: all 0.2s ease;
+
+}
+
+.signUp-form .text1{
+    color: #333;
+    font-size: 14px;
+}
+.backToLogin .text2{
+  color: #c1035c;
+  text-decoration: none;
+}
+.backToLogin .text2:hover{
+  text-decoration: underline;
+}
+.signUp-form .button{
+margin-top: 25px;
+}
+.signUp-form .button input{
+    border: none;
+    width: 100%;
+    color: #fff;
+    background-color: #c1035c;
+    font-size: 17px;
+    font-weight: 500;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.button input:hover{
+    background-color: #b10354;
+}
+
+.signUp-form .backToLogin{
+    margin-top: 30px;
+    text-align: center;
+}

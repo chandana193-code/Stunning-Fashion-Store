@@ -1,0 +1,176 @@
+.headerSection{
+  display: flex;
+  justify-content: space-between;
+  background-color:whitesmoke;
+ 
+  position: fixed;
+  padding: 5px;
+  top: 0;
+  left: 0;
+  right: 0;
+  
+}
+
+
+.fashionLogo{
+  width: 150px;
+  height: auto;
+ 
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.logoSettings{
+   margin-left: 10px;
+  margin-top: 0px;
+  width: 80px;
+  height: 80px;
+}
+.left{
+  flex: 2;
+  margin:0;
+  color:#c1035c;
+  font-size: 20px;
+  font-style:italic;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+
+.center{
+  flex: 2;
+  margin:0px 50px 0px 0px;
+  
+}
+.center ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.center ul li {
+  display: inline-block;
+  margin: 20px 10px;
+ 
+}
+.dropdown-button {
+    background:none;
+    font-size: 16px;
+   font-weight: bold;
+    color: #c1035c ;
+    padding: 5px 5px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    
+   
+}
+
+.dropdown-button:hover{
+  background: none;
+  color:#c1035c ;
+  cursor: pointer;
+  transition: o.3s;
+  text-decoration: underline;
+  font-size: 15px;
+ font-weight: bold;
+}
+
+.dropdown-content {
+    display: block;
+    position: absolute;
+    background-color: white;
+    
+    min-width: 15%;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+
+.dropdown-content a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color:gray;
+}
+
+.dropdown-content a:hover {
+    background-color: #eeeeee;
+    color: #585858;
+    font-weight: bold;
+    font-size: 14px;
+}
+.dropdown-content-menu{
+  display: flex;
+ margin: 10px;
+}
+.dropdown-content-menu p{
+color:#c1035c ;
+margin-left: 10px;
+font-size: 14px;
+}
+.dropdown-content-menu button{
+  border: none;
+  background: none;
+ cursor: pointer;
+}
+
+
+.search{
+  flex: 2;
+  margin:0px 0px 0px 0px;
+  
+}
+.search input{
+  padding: 8px;
+  width: 18rem;
+  border-radius: 8px;
+ border: none;
+ outline: none;
+background-color:rgba(193, 192, 192, 0.668);
+margin-top: 20px;
+margin-bottom: 20px;
+}
+.right{
+  margin:0px 30px 0px 80px;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.right button{
+  border: none;
+ background: none;
+ justify-content: center;
+ align-items: center;
+ color: #c1035c;
+
+}
+.right button:hover{
+  color:black;
+ 
+}
+
+.fa-user {
+  font-size: 23px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ margin-top: 20px;
+ 
+}
+.fa-cart-shopping{
+
+   font-size: 23px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+ 
+}
+
+
+

@@ -1,0 +1,553 @@
+                                              Stunning Fashion Store
+
+App.jsx
+
+
+import React from 'react'
+import './App.css'
+import MainPage from './fashionstore/Pages/MainPage'
+
+const App = () => {
+  return (
+    <div>
+      
+      <MainPage />
+    </div>
+  )
+}
+
+export default App;
+
+
+index.js
+
+
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+
+import App from './App';
+
+
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+
+    <App />
+  
+
+);
+
+
+App.css
+
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.headerSection{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color:whitesmoke;
+  /*color: white;*/
+}
+
+.center ul li{
+  list-style: none;
+  display: inline;
+  margin: 0px 10px;
+  
+}
+.center ul li:hover{
+  color:#D90166 ;
+  cursor: pointer;
+  transition: o.3s;
+  text-decoration: underline;
+  font-size: 16px;
+ font-weight: bold;
+  
+}
+.title{
+ font-size: 1rem;
+  display: flex;
+  align-items: flex-end;
+  gap:0px;
+  cursor: pointer;
+}
+.title h2{
+  font-style: italic;
+  margin:10px 10px 0px 10px;
+  color: rgb(95, 41, 246);
+}
+.title p{
+  color:#D90166;
+  font-weight: bold;
+  font-style: italic;
+}
+.left{
+  flex: 2;
+}
+.center{
+  flex: 2;
+ margin: 10px 0px; 
+}
+.search{
+  flex: 2;
+  margin: 10px 0px; 
+}
+.search input{
+  padding: 8px;
+  width: 18rem;
+  border-radius: 8px;
+ border: none;
+ outline: none;
+background-color:rgba(193, 192, 192, 0.668);
+
+}
+.right{
+ margin:5px 10px;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.fa-user {
+margin-right:25px;
+margin-left: 10px;
+font-size: 20px;
+
+}
+
+.fa-user:hover{
+  color: #D90166;
+}
+.fa-cart-shopping{
+  font-size: 20px;
+
+}
+.menu-item1{
+  
+  margin-right: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.menu-item1:hover{
+  color: #D90166;
+  text-decoration: underline;
+  transition: 0.3s;
+  
+}
+.menu-item2{
+  margin-right: 10px;
+}
+.bannerSection{
+  margin: 10px 0px;
+}
+.bannerBox img{
+width: 100%;
+height: 280px;
+
+}
+.womanImages{
+  display: flex;
+  gap: 10px;
+}
+.womanImages img{
+  width: 220px;
+  height: 220px;
+}
+.menImages{
+  display: flex;
+  gap: 10px;
+}
+.menImages img{
+  width: 220px;
+  height: 220px;
+}
+.mencollectionSection{
+  padding: 10px 0px;
+}
+
+.footerSection{
+  background-color: black;
+  color: white;
+  padding: 50px 10px;
+}
+
+.footerLeft{
+  flex: 2;
+}
+.footerLeft ul li{
+  padding: 8px 80px;
+  }
+  
+.footerIcons{
+  flex: 2;
+  padding-right:10px; 
+  cursor: pointer;
+}
+.footerIcons i {
+
+  margin: 8px;   
+}
+.footerIcons i:hover {
+  color:white; /* or any color you want */
+}
+
+.fa-youtube{
+  font-size: 30px;
+  color: red;
+  
+}
+.fa-facebook{
+  font-size: 30px;
+  color: rgb(45, 133, 247);
+}
+
+.fa-whatsapp{
+  font-size: 30px;
+  color: rgb(6, 240, 6);
+}
+
+.footerContactInfo{
+  flex: 2;
+}
+
+
+
+data.js
+
+
+export const Gents = {
+                  
+    title: "Gents Fashion" ,
+    image1: "assert/menimages/1.jpeg",
+      image2: "assert/menimages/2.jpeg",
+image3: "assert/menimages/3.jpeg",
+image4: "assert/menimages/4.jpeg",
+image5: "assert/menimages/5.jpeg",
+image6: "assert/menimages/6.jpeg",
+image7: "assert/menimages/7.jpeg",
+image8: "assert/menimages/8.jpeg",
+image9: "assert/menimages/9.jpeg",
+image10: "assert/menimages/10.jpeg",
+
+/*price1: "599 INR",
+price2: "433 INR",
+price3: "599 INR",
+price4: "599 INR",
+price5: "599 INR",
+price6: "599 INR",
+price7: "599 INR",
+price8: "599 INR",
+price9: "599 INR",
+price10: "599 INR",
+price11: "599 INR",
+price12: "599 INR",
+*/
+
+}
+
+export const Ladies = {
+ 
+    title: "Ladies Fashion" ,
+    image1: "assert/womanimages/img1.jpeg",
+      image2: "assert/womanimages/img2.jpeg",
+image3: "assert/womanimages/img3.jpeg",
+image4: "assert/womanimages/img4.jpeg",
+image5: "assert/womanimages/img5.jpeg",
+image6: "assert/womanimages/img6.jpeg",
+image7: "assert/womanimages/img7.jpeg",
+image8: "assert/womanimages/img8.jpeg",
+
+
+
+/*price1: "599 INR",
+price2: "433 INR",
+price3: "599 INR",
+price4: "599 INR",
+price5: "599 INR",
+price6: "599 INR",
+price7: "599 INR",
+price8: "599 INR",
+price9: "599 INR",
+price10: "599 INR",
+*/
+
+
+}
+
+MainPage.jsx
+
+
+import React,{useState} from 'react'
+import Header from '../Components/Header'
+import Footer from '../Components/Footer'
+import Banner from '../Components/Banner'
+import Collections from '../Components/Collections'
+
+import {Ladies, Gents} from '../data'
+import MenCollections from '../Components/MenCollections'
+import LoginForm from '../Components/LoginForm'
+
+
+const MainPage = () => {
+  const [ladiesFashion, setLadiesFashion] = useState(Ladies)
+  const [gentsFashion, setGentsFashion] = useState(Gents)
+  return (
+    <div>
+     
+      <Header />
+      <Banner />
+        <Collections ladiesFashion={ladiesFashion}/>
+        <MenCollections gentsFashion={gentsFashion}/>
+        <LoginForm />
+        <Footer />
+      
+    </div>
+  )
+}
+
+export default MainPage
+
+
+Header.jsx
+
+
+
+import React from 'react'
+
+const Header = () => {
+  return (
+    <div className='headerSection'>
+        <div className="left">
+            <div className="title">
+              <h2>stunning fashion</h2>
+              <p>store</p>
+            </div>
+        </div>
+        <div className="center">
+            <ul>
+                <li>Woman</li>
+                <li>Men</li>
+                <li>Kids</li>
+                <li>Beauty</li>
+                <li>Home</li>
+            </ul>
+        </div>
+        <div className="search">
+            <input type='text' placeholder='Search...' />
+        </div>
+        <div className="right">
+            
+          <div className="menu-item1">
+           <i class="fa-solid fa-user"></i>
+           <span>profile</span>
+           </div>
+           <div className="menu-item2">
+           <i class="fa-solid fa-cart-shopping"></i>
+           <p>cart</p>
+           </div>
+    
+        </div>
+    </div>
+  )
+}
+
+export default Header
+
+
+
+Footer.jsx
+
+
+
+import React from 'react'
+
+
+const Footer = () => {
+  return (
+    <div className='footerSection'>
+      <div className="footerLeft">
+        <ul>
+          <li>About Us</li>
+          <li>Contact Us</li>
+          <li>Terms & Condition</li>
+          <li>Terms of Service</li>
+          <li>Exchange polocy</li>
+          <li>Shipping polocy</li>
+
+        </ul>
+      </div>
+      <div className='footerIcons'>
+       <h2>Follow Us</h2>
+       <i class="fa-brands fa-youtube"></i>
+       <i class="fa-brands fa-facebook"></i>
+       <i class="fa-brands fa-whatsapp"></i>
+      </div>
+      <div className='footerContactInfo'>Contact Us</div>
+    </div>
+  )
+}
+
+export default Footer
+
+
+MenCollections.jsx
+
+
+import React from 'react'
+
+const MenCollections = (props) => {
+    const{title, image1, image2, image3, image4, image5, image6, image7, image8}=props.gentsFashion
+
+  return (
+    <div className='mencollectionSection'>
+        <div className="bannerBox">
+        <img src="assert/menbanner.jpg" alt="" />
+      </div>
+    
+      <h2>{title}</h2>
+      <div className="menImages">
+        <img src={image1} alt={title} />
+        <img src={image2} alt={title} />
+        <img src={image3} alt={title} />
+        <img src={image4} alt={title} />
+        <img src={image5} alt={title} />
+        <img src={image6} alt={title} />
+        <img src={image7} alt={title} />
+        <img src={image8} alt={title} />
+        
+      </div>
+    </div>
+  )
+}
+
+export default MenCollections
+
+Collections.jsx ---(women's collections)
+
+
+import React from 'react'
+
+const Collections = (props) => {
+  const{title, image1, image2, image3, image4, image5, image6, image7, image8}=props.ladiesFashion
+  return (
+    <div className='collectionSection'>
+      <h2>{title}</h2>
+      <div className="womanImages">
+        <img src={image1} alt={title} />
+        <img src={image2} alt={title} />
+        <img src={image3} alt={title} />
+        <img src={image4} alt={title} />
+        <img src={image5} alt={title} />
+        <img src={image6} alt={title} />
+        <img src={image7} alt={title} />
+        <img src={image8} alt={title} />
+        
+      </div>
+    </div>
+  )
+}
+
+export default Collections
+
+
+Banner.jsx
+
+
+import React from 'react'
+
+const Banner = () => {
+  return (
+    <div className='bannerSection'>
+      <div className="bannerBox">
+        <img src="assert/1.jpg" alt="" />
+      </div>
+    </div>
+  )
+}
+
+export default Banner
+
+
+
+LoginForm.jsx
+
+
+import React from 'react'
+
+const LoginForm = () => {
+  return (
+    <div>LoginForm</div>
+  )
+}
+
+export default LoginForm
+
+
+
+
+index.html
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>Stunning Fashion store</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+

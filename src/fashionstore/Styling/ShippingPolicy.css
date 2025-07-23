@@ -1,0 +1,36 @@
+
+.shippingPolicy-maincontainer{
+    margin-top: 85px;
+
+ background-color:rgba(250, 240, 230, 0.797);
+    min-height: 100vh;
+  position: relative;
+   
+}
+.maincontainer-info{
+ display: block;
+    padding: 5%;
+}
+.maincontainer-info h1{
+   
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: oblique;
+
+ 
+}
+h3{
+    font-style: oblique;
+}
+strong{
+    text-decoration: underline;
+   padding-bottom: 10px;
+}
+.condition-info{
+    margin: 5% 20%;
+  
+}
+.condition-info p{
+    margin-bottom: 1.5em;
+}
+

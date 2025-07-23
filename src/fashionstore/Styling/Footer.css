@@ -1,0 +1,95 @@
+
+.footerSection{
+  background-color: black;
+  color: white;
+ /* padding: 50px 10px;*/
+ padding: 20px;
+ margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  
+ 
+}
+
+.footerLeft{
+  flex: 2;
+}
+.footerLeft ul{
+  list-style-type: none;
+  padding: 20px;
+}
+.footerLeft ul li{
+  padding: 8px 0;
+  }
+  
+  .footerLeft ul li button{
+    border: none;
+    background: none;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+  }
+
+  .footerLeft ul li button:hover{
+   font-size: 16px;
+   font-weight: bold;
+  }
+
+.footerIcons{
+  flex: 1;
+  text-align:center;
+}
+.footerIcons i {
+
+  margin: 10px;
+  font-size: 30px;   
+  cursor: pointer;
+}
+
+.footerIcons i:hover {
+  color:white; /* or any color you want */
+}
+
+.fa-youtube{
+ 
+  color: red;
+  
+}
+.fa-facebook{
+  
+  color: rgb(45, 133, 247);
+}
+
+.fa-whatsapp{
+  
+  color: rgb(6, 240, 6);
+}
+
+.footerContactInfo{
+  flex: 2;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items:flex-end;
+ 
+  margin-bottom: 1.8em;
+ 
+}
+.contactUs strong{
+  text-decoration: none;
+
+  
+}
+.whatsApp{
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+.email{
+  padding-bottom: 10px;
+}
+
+.onlineTiming{
+  padding-bottom: 5px;
+}

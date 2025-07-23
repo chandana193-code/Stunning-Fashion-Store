@@ -1,0 +1,94 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.mainContainer{
+
+  margin-top: 85px;
+   
+}
+.menu-item1{
+  
+  margin-right: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.menu-item1:hover{
+  color: #D90166;
+  text-decoration: underline;
+  transition: 0.3s;
+  
+}
+.menu-item2{
+  margin-right: 10px;
+}
+
+.bannerBox img{
+width: 100%;
+height: 280px;
+
+}
+
+ .bannerBox button{
+  border: none;
+  width: 100%;
+  color: #fff;
+  font-size: 17px;
+  font-weight: 600;
+  background-color: #c1035c;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-bottom: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.womanImages{
+  display: flex;
+  gap: 10px;
+}
+.womanImages img{
+  width: 220px;
+  height: 220px;
+}
+
+
+.menImages{
+  display: flex;
+  gap: 10px;
+}
+.menImages img{
+  width: 220px;
+  height: 220px;
+}
+.mencollectionSection{
+  padding: 10px 0px;
+}
+
+
+
+/* Cothing Styling */
+
+.collection-container{
+   margin-top: 80px;
+   width: 100%;
+}
+.cloth_img_styling{
+  display: flex;
+  gap: 10px;
+}
+.cloth_img_styling img{
+  width: 250px;
+  height: 250px;
+  padding:20px;
+}
+.cloth_img_styling img:hover{
+   width: 270px;
+  height: 270px;
+  padding:10px;
+}
+
