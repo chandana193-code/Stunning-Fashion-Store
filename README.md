@@ -78,5 +78,7 @@ Then open http://localhost:3000 in your browser.
 # Author
 
 Name: Nalla Chandana
-Email: [nallachandana193@gmail.com]
-LinkedIn: [https://www.linkedin.com/in/chandananalla/]
+
+Email: nallachandana193@gmail.com
+
+LinkedIn: https://www.linkedin.com/in/chandananalla/
