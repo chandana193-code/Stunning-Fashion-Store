@@ -1,36 +1,34 @@
-Stunning Fashion Store
+# Stunning Fashion Store
 
 The Stunning Fashion Store is a fully responsive frontend e-commerce web application built using React JS. It allows users to browse fashion products, filter them by categories, view product details, and add items to a shopping cart.
 
-This project was developed as part of a frontend development internship to demonstrate skills in React, component-based architecture, and responsive UI design.
+# Features
 
-Features
+- Product listings with descriptions
 
-Product listings with descriptions
+- Category-based filtering
 
-Category-based filtering
+- Reusable components using React Hooks
 
-Reusable components using React Hooks
+- Client-side routing with React Router
 
-Client-side routing with React Router
+- Fully responsive layout (desktop)
 
-Fully responsive layout (desktop and mobile)
+- Styled with CSS for a clean and modern UI
 
-Styled with CSS for a clean and modern UI
+- Optimized performance for fast loading
 
-Optimized performance for fast loading
+# Technologies Used
 
-Technologies Used
+- React JS
 
-React JS
+- JavaScript
 
-JavaScript
+- HTML
 
-HTML
+- CSS
 
-CSS
-
-Folder Structure
+# Folder Structure
 
 ```bash
 Stunning-Fashion-Store/
@@ -49,24 +47,36 @@ Stunning-Fashion-Store/
 ├── README.md
 ```
 
-How to Run the Project
+# How to Run the Project
 
-Clone the repository:
+1. Clone the repository:
+
+```bash
 git clone https://github.com/chandana193-code/Stunning-Fashion-Store.git
+```
 
-Navigate to the project folder:
+2. Navigate to the project folder:
+
+```bash
 cd Stunning-Fashion-Store
+```
 
-Install dependencies:
+3. Install dependencies:
+
+```bash
 npm install
+```
 
-Start the development server:
+4. Start the development server:
+
+```bash
 npm start
 
 Then open http://localhost:3000 in your browser.
+```
 
-Author
+# Author
 
 Name: Nalla Chandana
-Email: nallachandana193@gmail.com
-LinkedIn: https://www.linkedin.com/in/chandananalla/
+Email: [nallachandana193@gmail.com]
+LinkedIn: [https://www.linkedin.com/in/chandananalla/]
