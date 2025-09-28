@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Stunning-Fashion-Store/static/css/main.c161ec66.css",
-    "main.js": "/Stunning-Fashion-Store/static/js/main.dff20277.js",
+    "main.js": "/Stunning-Fashion-Store/static/js/main.a26865ca.js",
     "static/media/img1.jpg": "/Stunning-Fashion-Store/static/media/img1.584c93f789734f775ff7.jpg",
     "index.html": "/Stunning-Fashion-Store/index.html",
     "main.c161ec66.css.map": "/Stunning-Fashion-Store/static/css/main.c161ec66.css.map",
-    "main.dff20277.js.map": "/Stunning-Fashion-Store/static/js/main.dff20277.js.map"
+    "main.a26865ca.js.map": "/Stunning-Fashion-Store/static/js/main.a26865ca.js.map"
   },
   "entrypoints": [
     "static/css/main.c161ec66.css",
-    "static/js/main.dff20277.js"
+    "static/js/main.a26865ca.js"
   ]
 }
