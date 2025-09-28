@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/chandana193-code/Stunning-Fashion-Store/static/css/main.0c642f29.css",
-    "main.js": "/chandana193-code/Stunning-Fashion-Store/static/js/main.dff20277.js",
-    "static/media/img1.jpg": "/chandana193-code/Stunning-Fashion-Store/static/media/img1.584c93f789734f775ff7.jpg",
-    "index.html": "/chandana193-code/Stunning-Fashion-Store/index.html",
-    "main.0c642f29.css.map": "/chandana193-code/Stunning-Fashion-Store/static/css/main.0c642f29.css.map",
-    "main.dff20277.js.map": "/chandana193-code/Stunning-Fashion-Store/static/js/main.dff20277.js.map"
+    "main.css": "/Stunning-Fashion-Store/static/css/main.c161ec66.css",
+    "main.js": "/Stunning-Fashion-Store/static/js/main.dff20277.js",
+    "static/media/img1.jpg": "/Stunning-Fashion-Store/static/media/img1.584c93f789734f775ff7.jpg",
+    "index.html": "/Stunning-Fashion-Store/index.html",
+    "main.c161ec66.css.map": "/Stunning-Fashion-Store/static/css/main.c161ec66.css.map",
+    "main.dff20277.js.map": "/Stunning-Fashion-Store/static/js/main.dff20277.js.map"
   },
   "entrypoints": [
-    "static/css/main.0c642f29.css",
+    "static/css/main.c161ec66.css",
     "static/js/main.dff20277.js"
   ]
 }
